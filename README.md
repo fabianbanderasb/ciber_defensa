@@ -27,18 +27,18 @@ En bash
 python script.py
 
 
-###Funcionalidad
+### Funcionalidad
 El script realiza las siguientes tareas:
 
 Obtiene una lista de conexiones de red establecidas.
 Filtra las conexiones locales (127.0.0.1).
 Muestra información sobre las conexiones identificadas, incluidos detalles del proceso e información de geolocalización para hosts remotos.
 
-###Dependencias
+### Dependencias
 psutil
 ip2geotools
 
-###Funciones
+### Funciones
 network_monitor()
 Obtiene e itera sobre las conexiones de red establecidas.
 Filtra las conexiones locales.
@@ -50,7 +50,7 @@ show_ip_details(ip)
 Recupera información de geolocalización para una dirección IP utilizando la biblioteca ip2geotools.
 
 
-###Ejemplo de Salida
+### Ejemplo de Salida
 
 ========================================================================================
 Se encontró una conexión
